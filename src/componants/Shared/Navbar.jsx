@@ -44,7 +44,7 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className="p-4  text-center menu-sm dropdown-content mt-0 z-[1]  
-              bg-white bg-opacity-50 rounded-box w-[450px] "
+              bg-white bg-opacity-50 rounded-box w-[300px] "
             >
               {navLink}
             </ul>

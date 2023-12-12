@@ -18,7 +18,7 @@
     @apply relative  px-5 tracking-[1px] font-bold text-xs md:text-base;
   }
   .nav::after {
-    @apply content-[''] h-[3px] left-[173px] lg:left-0 absolute  bg-yellow-500 
+    @apply content-[''] h-[3px] left-[110px] lg:left-0 absolute  bg-yellow-500 
     -bottom-[5px] w-0 rounded-xl duration-1000;
   }
   .nav:hover::after {

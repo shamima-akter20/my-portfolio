@@ -1,8 +1,14 @@
+import { Helmet } from "react-helmet-async";
+
 const More = () => {
 
   
   return (
-    <div
+   <div>
+     <Helmet>
+        <title>SHAMIMA - More</title>
+      </Helmet>
+     <div
       className=" w-100% bg-cover bg-no-repeat"
       style={{
         backgroundImage: "url(https://i.ibb.co/TrYyYHd/d.jpg)",
@@ -130,6 +136,7 @@ const More = () => {
         </div>
       </div>
     </div>
+   </div>
   );
 };
 
