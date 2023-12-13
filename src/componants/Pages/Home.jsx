@@ -1,10 +1,10 @@
 import { Helmet } from "react-helmet-async";
+import AboutLink from "./AboutLink";
 import AboutMe from "./AboutMe";
 import Banner from "./Banner";
 import MySkill from "./MySkill";
 import RecentProject from "./RecentProject";
 import Services from "./Services";
-import AboutLink from "./aboutLink";
 
 const Home = () => {
   return (
